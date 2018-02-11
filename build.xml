@@ -4,7 +4,7 @@
 <property name="result.dir" location="./target"/>
 <property name="result.javaclasses.dir" location="${result.dir}/classes"/>
   
-   <path id ="libraries">
+   <path id ="NecessaryLibraries">
  <pathelement location="./MyLibraries/junit.jar"/>
 <!--matcher-->
 <pathelement location="./MyLibraries/org.hamcrest.core_1.3.0.v201303031735.jar"/>
