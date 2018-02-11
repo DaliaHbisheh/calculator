@@ -1,5 +1,12 @@
 
+<project default="test">
+<property name="src.java.dir" location="./src/calculator"/>
+<property name="result.dir" location="./target"/>
+<property name="result.javaclasses.dir" location="${result.dir}/classes"/>
+  
+   
 
+ 
 <target name="test" >
 <!--fork : each test will run in its own JVM (to seperate test cases)-->
 <junit printsummary="true" haltonfailure="true" fork="true">
